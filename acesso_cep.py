@@ -26,6 +26,7 @@ class BuscaEndereco:
         dados = r.json()
         return (
         dados['bairro'],
+        dados['logradouro'],
         dados['localidade'],
         dados['uf']
         )
